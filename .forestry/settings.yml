@@ -5,14 +5,17 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: _testimonials
+  label: Testimonials
+  create: all
+  match: "**/*"
+  new_doc_ext: ''
+- type: directory
   path: _services
   label: Services
   create: all
   match: "**/*"
   new_doc_ext: '20190926205757'
-- type: document
-  path: _testimonials
-  label: Testimonial
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
