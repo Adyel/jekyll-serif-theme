@@ -8,8 +8,8 @@ sections:
   path: _services
   label: Services
   create: all
-  match: "**/.md"
-  new_doc_ext: ".md"
+  match: "**/*"
+  new_doc_ext: ''
 - type: document
   path: _testimonials
   label: Testimonial
